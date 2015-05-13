@@ -26,3 +26,36 @@
 .jumbotron {
   background: url('../img/bigcover.png');
 }
+
+h2 {
+  font-family: 'raleway', sans-serif, helvetica;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+  text-align: center;
+  letter-spacing: .5em;
+}
+
+a {
+  color: peru !important;
+}
+
+.nav {
+  margin-bottom: 2em;
+  background: #fff;
+}
+
+.top-beam {
+  background-image:
+    -webkit-linear-gradient(90deg, rgba(202, 203, 18, 0.1) 10%, rgba(0,0,0,0) 0%), -webkit-linear-gradient(80deg, rgba(202, 203, 18, 0.1) 20%, rgba(0,0,0,0) 0%), -webkit-linear-gradient(70deg, rgba(202, 203, 18, 0.1) 30%, rgba(0,0,0,0) 0%), -webkit-linear-gradient(60deg, rgba(202, 203, 18, 0.1) 40%, rgba(0,0,0,0) 0%), -webkit-linear-gradient(50deg, rgba(202, 203, 18, 0.1) 50%, rgba(0,0,0,0) 0%), -webkit-linear-gradient(40deg, rgba(202, 203, 18, 0.1) 60%, rgba(0,0,0,0) 0%), -webkit-linear-gradient(30deg, rgba(202, 203, 18, 0.1) 70%, rgba(0,0,0,0) 0%), -webkit-linear-gradient(20deg, rgba(202, 203, 18, 0.1) 80%, rgba(0,0,0,0) 0%), -webkit-linear-gradient(10deg, rgba(202, 203, 18, 0.1) 90%, rgba(0,0,0,0) 0%), -webkit-linear-gradient(0deg, rgba(202, 203, 18, 0.1) 100%, rgba(0,0,0,0) 0%);
+  background-image:
+    linear-gradient(0deg, rgba(202, 203, 18, 0.1) 10%, rgba(0,0,0,0) 0%),
+    linear-gradient(10deg, rgba(202, 203, 18, 0.1) 20%, rgba(0,0,0,0) 0%),
+    linear-gradient(20deg, rgba(202, 203, 18, 0.1) 30%, rgba(0,0,0,0) 0%),
+    linear-gradient(30deg, rgba(202, 203, 18, 0.1) 40%, rgba(0,0,0,0) 0%),
+    linear-gradient(40deg, rgba(202, 203, 18, 0.1) 50%, rgba(0,0,0,0) 0%),
+    linear-gradient(50deg, rgba(202, 203, 18, 0.1) 60%, rgba(0,0,0,0) 0%),
+    linear-gradient(60deg, rgba(202, 203, 18, 0.1) 70%, rgba(0,0,0,0) 0%),
+    linear-gradient(70deg, rgba(202, 203, 18, 0.1) 80%, rgba(0,0,0,0) 0%),
+    linear-gradient(80deg, rgba(202, 203, 18, 0.1) 90%, rgba(0,0,0,0) 0%),
+    linear-gradient(90deg, rgba(202, 203, 18, 0.1) 100%, rgba(0,0,0,0) 0%);
+}
